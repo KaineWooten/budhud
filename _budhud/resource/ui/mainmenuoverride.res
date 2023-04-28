@@ -100,7 +100,7 @@
 
     "TooltipPanel"
     {
-        "border"                                                    "ReplayGrayDialogBorder"
+        "border"                                                    "bh_TooltipBG"
 
         "TipLabel"
         {
@@ -183,7 +183,7 @@
         "visible"                                                   "1"
         "enabled"                                                   "1"
         "paintborder"                                               "0"
-        "image"                                                     "replay\thumbnails\menu_icons\menugif"
+        "image"                                                     "replay/thumbnails/menu_icons/menugif"
         "scaleImage"                                                "1"
     }
 
@@ -238,6 +238,7 @@
 
         "xpos"                                                      "0"
         "ypos"                                                      "0"
+        "zpos"                                                      "1"
         "wide"                                                      "250"
         "tall"                                                      "30"
         "textAlignment"                                             "center"
@@ -246,6 +247,32 @@
         "armedFgColor_override"                                     "bh_menu_background1"
         "paintbackground"                                           "0"
         "Command"                                                   "engine open_charinfo"
+
+        "sound_depressed"                                           "UI/buttonclick.wav"
+        "sound_released"                                            "UI/buttonclickrelease.wav"
+    }
+
+    "bh_BackpackShadow"
+    {
+        "pin_to_sibling"                                            "bh_Backpack"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "ControlName"                                               "CExImageButton"
+        "fieldName"                                                 "bh_BackpackShadow"
+        "labelText"                                                 "#bh_Backpack"
+        "font"                                                      "bh_Font20"
+
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
+        "zpos"                                                      "0"
+        "wide"                                                      "250"
+        "tall"                                                      "30"
+        "textAlignment"                                             "center"
+
+        "defaultFgColor_override"                                   "bh_shadow"
+        "armedFgColor_override"                                     "bh_shadow"
+        "paintbackground"                                           "0"
 
         "sound_depressed"                                           "UI/buttonclick.wav"
         "sound_released"                                            "UI/buttonclickrelease.wav"
@@ -264,6 +291,7 @@
 
         "xpos"                                                      "0"
         "ypos"                                                      "-30"
+        "zpos"                                                      "1"
         "wide"                                                      "250"
         "tall"                                                      "30"
         "textAlignment"                                             "center"
@@ -272,6 +300,32 @@
         "armedFgColor_override"                                     "bh_menu_background2"
         "paintbackground"                                           "0"
         "Command"                                                   "engine open_store"
+
+        "sound_depressed"                                           "UI/buttonclick.wav"
+        "sound_released"                                            "UI/buttonclickrelease.wav"
+    }
+
+    "bh_StoreShadow"
+    {
+        "pin_to_sibling"                                            "bh_Store"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "ControlName"                                               "CExImageButton"
+        "fieldName"                                                 "bh_StoreShadow"
+        "labelText"                                                 "#bh_Store"
+        "font"                                                      "bh_Font20"
+
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
+        "zpos"                                                      "0"
+        "wide"                                                      "250"
+        "tall"                                                      "30"
+        "textAlignment"                                             "center"
+
+        "defaultFgColor_override"                                   "bh_shadow"
+        "armedFgColor_override"                                     "bh_shadow"
+        "paintbackground"                                           "0"
 
         "sound_depressed"                                           "UI/buttonclick.wav"
         "sound_released"                                            "UI/buttonclickrelease.wav"
@@ -290,6 +344,7 @@
 
         "xpos"                                                      "0"
         "ypos"                                                      "-60"
+        "zpos"                                                      "1"
         "wide"                                                      "250"
         "tall"                                                      "30"
         "textAlignment"                                             "center"
@@ -298,6 +353,32 @@
         "armedFgColor_override"                                     "bh_menu_background1"
         "paintbackground"                                           "0"
         "Command"                                                   "OpenOptionsDialog"
+
+        "sound_depressed"                                           "UI/buttonclick.wav"
+        "sound_released"                                            "UI/buttonclickrelease.wav"
+    }
+
+    "bh_OptionsShadow"
+    {
+        "pin_to_sibling"                                            "bh_Options"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "ControlName"                                               "CExImageButton"
+        "fieldName"                                                 "bh_OptionsShadow"
+        "labelText"                                                 "#bh_Options"
+        "font"                                                      "bh_Font20"
+
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
+        "zpos"                                                      "0"
+        "wide"                                                      "250"
+        "tall"                                                      "30"
+        "textAlignment"                                             "center"
+
+        "defaultFgColor_override"                                   "bh_shadow"
+        "armedFgColor_override"                                     "bh_shadow"
+        "paintbackground"                                           "0"
 
         "sound_depressed"                                           "UI/buttonclick.wav"
         "sound_released"                                            "UI/buttonclickrelease.wav"
@@ -316,6 +397,7 @@
 
         "xpos"                                                      "0"
         "ypos"                                                      "-90"
+        "zpos"                                                      "1"
         "wide"                                                      "250"
         "tall"                                                      "30"
         "textAlignment"                                             "center"
@@ -329,23 +411,26 @@
         "sound_released"                                            "UI/buttonclickrelease.wav"
     }
 
-    "VRModeButton"
+    "bh_AdvOptionsShadow"
     {
-        "pin_to_sibling"                                            "bh_CenterPin"
+        "pin_to_sibling"                                            "bh_AdvOptions"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 
-        "labelText"                                                 "#bh_VirtualReality"
+        "ControlName"                                               "CExImageButton"
+        "fieldName"                                                 "bh_AdvOptionsShadow"
+        "labelText"                                                 "#bh_AdvOptions"
         "font"                                                      "bh_Font20"
 
-        "xpos"                                                      "0"
-        "ypos"                                                      "-120"
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
+        "zpos"                                                      "0"
         "wide"                                                      "250"
         "tall"                                                      "30"
         "textAlignment"                                             "center"
 
-        "defaultFgColor_override"                                   "bh_menu_foreground1"
-        "armedFgColor_override"                                     "bh_menu_background1"
+        "defaultFgColor_override"                                   "bh_shadow"
+        "armedFgColor_override"                                     "bh_shadow"
         "paintbackground"                                           "0"
 
         "sound_depressed"                                           "UI/buttonclick.wav"
@@ -379,22 +464,6 @@
 //  }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Stream List Panel
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    "StreamListPanel"
-    {
-        "pin_to_sibling"                                            "bh_InfoDisplay"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
-
-        "xpos"                                                      "0"
-        "ypos"                                                      "0"
-        "wide"                                                      "300"
-        "tall"                                                      "350"
-    }
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
     // News screen
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -406,8 +475,9 @@
 
         "xpos"                                                      "0"
         "ypos"                                                      "0"
+        "zpos"                                                      "3"
         "wide"                                                      "300"
-        "tall"                                                      "350"
+        "tall"                                                      "360"
 
         "MOTD_HeaderIcon"
         {
@@ -442,7 +512,7 @@
 
             "SubImage"
             {
-                "image"                                             "replay\thumbnails\menu_icons\close"
+                "image"                                             "replay/thumbnails/menu_icons/close"
             }
         }
     }
@@ -459,7 +529,17 @@
 
         "xpos"                                                      "-45"
         "ypos"                                                      "-3"
-        "border"                                                    "ReplayGrayDialogBorder"
+        "border"                                                    "bh_TooltipBG"
+
+        "Notifications_Scroller"
+        {
+            "tall"                                                  "60"    // 60
+
+            "Notifications_Control"
+            {
+                "tall"                                              "60"    // 60
+            }
+        }
 
         "Notifications_CloseButton"
         {
@@ -470,7 +550,7 @@
 
             "SubImage"
             {
-                "image"                                             "replay\thumbnails\menu_icons\close"
+                "image"                                             "replay/thumbnails/menu_icons/close"
             }
         }
 
@@ -484,17 +564,12 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Stream, contracts, news, new items buttons
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-
     "Notifications_ShowButtonPanel"
     {
-        "pin_to_sibling"                                            "bh_TopPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
-
-        "xpos"                                                      "15"
-        "ypos"                                                      "-3"
-        "wide"                                                      "30"
-        "tall"                                                      "30"
+        "xpos"                                                      "r150"
+        "ypos"                                                      "27"
+        "wide"                                                      "150"
+        "tall"                                                      "18"
 
         "SubImage"
         {
@@ -505,28 +580,68 @@
 
         "Notifications_CountLabel"
         {
-            "ypos"                                                  "r-6969"
+            "xpos"                                                  "14"
+            "ypos"                                                  "r-6969" // -5
             "visible"                                               "0"
             "enabled"                                               "0"
         }
 
         "Notifications_ShowButtonPanel_SB"
         {
+            "xpos"                                                  "0"
+            "textinsetx"                                            "50"
+            "ypos"                                                  "0"
             "zpos"                                                  "6969"
-            "wide"                                                  "28"
-            "tall"                                                  "28"
-
-            "image_drawcolor"                                       "255 255 255 255"
-            "image_armedcolor"                                      "240 134 49 255"
+            "wide"                                                  "150"
+            "tall"                                                  "18"
+            "labeltext"                                             "#bh_PendingAlerts"
+            "textalignment"                                         "east"
+            "font"                                                  "bh_Font14"
+            "defaultFgColor_override"                               "bh_menu_foreground1"
+            "armedFgColor_override"                                 "bh_menu_background1"
+            "image_drawcolor"                                       "231 181 059 255"
+            "image_armedcolor"                                      "231 181 059 255"
 
             "SubImage"
             {
-                "xpos"                                              "10"
-                "ypos"                                              "11"
-                "wide"                                              "10"
-                "tall"                                              "10"
-                "image"                                             "replay\thumbnails\menu_icons\newnotification"
+                "xpos"                                              "131"
+                "ypos"                                              "2"
+                "wide"                                              "15"
+                "tall"                                              "15"
+                "image"                                             "replay/thumbnails/menu_icons/newnotification"
             }
+        }
+
+        "bh_Notifications_ShowButtonPanel_SB_Shadow"
+        {
+            "pin_to_sibling"                                        "Notifications_ShowButtonPanel_SB"
+            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
+            "pin_to_sibling_corner"                                 "0"
+
+            "ControlName"	                                        "CExImageButton"
+            "fieldName"		                                        "bh_Notifications_ShowButtonPanel_SB_Shadow"
+            "xpos"			                                        "-1"
+            "textinsetx"                                            "50"
+            "ypos"			                                        "-1"
+            "zpos"			                                        "6968"
+            "wide"			                                        "150"
+            "tall"			                                        "18"
+            "autoResize"	                                        "0"
+            "pinCorner"		                                        "3"
+            "visible"		                                        "1"
+            "enabled"		                                        "1"
+            "tabPosition"	                                        "0"
+            "labelText"		                                        "#bh_PendingAlerts"
+            "font"			                                        "bh_Font14"
+            "textAlignment"	                                        "east"
+            "dulltext"		                                        "0"
+            "brighttext"	                                        "0"
+            "default"		                                        "1"
+            "actionsignallevel"                                     "2"
+
+            "defaultFgColor_override"                               "bh_shadow"
+            "armedFgColor_override"                                 "bh_shadow"
+            "paintbackground"                                       "0"
         }
     }
 
@@ -539,7 +654,7 @@
         "ControlName"                                               "EditablePanel"
         "fieldname"                                                 "bh_Streams"
         "xpos"                                                      "15"
-        "ypos"                                                      "0"
+        "ypos"                                                      "r-6969" // 0
         "wide"                                                      "30"
         "tall"                                                      "30"
         "textAlignment"                                             "Center"
@@ -592,7 +707,7 @@
                 "visible"                                           "1"
                 "enabled"                                           "1"
                 "scaleImage"                                        "1"
-                "image"                                             "replay\thumbnails\menu_icons\streams"
+                "image"                                             "replay/thumbnails/menu_icons/streams"
                 "scaleImage"                                        "1"
             }
         }
@@ -606,7 +721,7 @@
 
         "ControlName"                                               "EditablePanel"
         "fieldname"                                                 "bh_Contracts"
-        "xpos"                                                      "60"
+        "xpos"                                                      "45"
         "ypos"                                                      "0"
         "wide"                                                      "30"
         "tall"                                                      "30"
@@ -660,7 +775,7 @@
                 "visible"                                           "1"
                 "enabled"                                           "1"
                 "scaleImage"                                        "1"
-                "image"                                             "replay\thumbnails\menu_icons\contracts"
+                "image"                                             "replay/thumbnails/menu_icons/contracts"
                 "scaleImage"                                        "1"
             }
         }
@@ -674,7 +789,7 @@
 
         "ControlName"                                               "EditablePanel"
         "fieldname"                                                 "bh_News"
-        "xpos"                                                      "-30"
+        "xpos"                                                      "-15"
         "ypos"                                                      "-1"
         "wide"                                                      "30"
         "tall"                                                      "30"
@@ -728,7 +843,7 @@
                 "visible"                                           "1"
                 "enabled"                                           "1"
                 "scaleImage"                                        "1"
-                "image"                                             "replay\thumbnails\menu_icons\news"
+                "image"                                             "replay/thumbnails/menu_icons/news"
                 "scaleImage"                                        "1"
             }
         }
@@ -746,7 +861,7 @@
 
         "ControlName"                                               "EditablePanel"
         "fieldname"                                                 "bh_Favorite1"
-        "xpos"                                                      "105"
+        "xpos"                                                      "90"
         "ypos"                                                      "0"
         "zpos"                                                      "11"
         "wide"                                                      "30"
@@ -794,7 +909,7 @@
                 "visible"                                           "1"
                 "enabled"                                           "1"
                 "scaleImage"                                        "1"
-                "image"                                             "replay\thumbnails\menu_icons\heart"
+                "image"                                             "replay/thumbnails/menu_icons/heart"
             }
         }
     }
@@ -807,7 +922,7 @@
 
         "ControlName"                                               "EditablePanel"
         "fieldname"                                                 "bh_Favorite2"
-        "xpos"                                                      "-75"
+        "xpos"                                                      "-60"
         "ypos"                                                      "0"
         "zpos"                                                      "11"
         "wide"                                                      "30"
@@ -855,7 +970,7 @@
                 "visible"                                           "1"
                 "enabled"                                           "1"
                 "scaleImage"                                        "1"
-                "image"                                             "replay\thumbnails\menu_icons\heart"
+                "image"                                             "replay/thumbnails/menu_icons/heart"
             }
         }
     }
@@ -932,64 +1047,17 @@
         "paintbackgroundtype"                                       "0"
     }
 
-    "bh_budhud"
-    {
-        "pin_to_sibling"                                            "bh_BelowTopPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
-
-        "ControlName"                                               "CExImageButton"
-        "fieldName"                                                 "budhud"
-        "xpos"                                                      "125"
-        "ypos"                                                      "0"
-        "wide"                                                      "250"
-        "tall"                                                      "35"
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
-        "labelText"                                                 "— budhud —"
-        "font"                                                      "bh_Font26"
-        "textAlignment"                                             "Center"
-        "fillcolor"                                                 "bh_gray"
-
-        "border_default"                                            "NoBorder"
-        "border_armed"                                              "NoBorder"
-        "paintbackground"                                           "0"
-        "defaultFgColor_override"                                   "bh_white"
-        "armedFgColor_override"                                     "bh_Theme_TextAccent"
-        "image_drawcolor"                                           "255 255 255 255"
-        "image_armedcolor"                                          "240 134 49 255"
-        "use_proportional_insets"                                   "1"
-
-        "sound_depressed"                                           "UI/buttonclick.wav"
-        "sound_released"                                            "UI/buttonclickrelease.wav"
-
-        "SubImage"
-        {
-            "ControlName"                                           "ImagePanel"
-            "fieldName"                                             "SubImage"
-            "xpos"                                                  "4"
-            "ypos"                                                  "4"
-            "zpos"                                                  "1"
-            "wide"                                                  "18"
-            "tall"                                                  "18"
-            "visible"                                               "1"
-            "enabled"                                               "1"
-            "image"                                                 ""
-            "scaleImage"                                            "1"
-        }
-    }
-
-    "bh_TitleHover"
+    "bh_budhudTitle"
     {
         "pin_to_sibling"                                            "bh_BelowTopPin"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "EditablePanel"
-        "fieldname"                                                 "bh_TitleHover"
+        "fieldname"                                                 "bh_budhudTitle"
         "xpos"                                                      "125"
         "ypos"                                                      "0"
-        "zpos"                                                      "0"
+        "zpos"                                                      "1"
         "wide"                                                      "250"
         "tall"                                                      "35"
         "visible"                                                   "1"
@@ -999,44 +1067,47 @@
         {
             "ControlName"                                           "CExImageButton"
             "fieldName"                                             "SubButton"
+            "font"                                                  "bh_Font26"
+            "labelText"                                             ""
+            "textAlignment"                                         "center"
             "xpos"                                                  "0"
             "ypos"                                                  "0"
+            "zpos"                                                  "1"
             "wide"                                                  "250"
             "tall"                                                  "35"
             "autoResize"                                            "0"
-            "pinCorner"                                             "3"
+            "pinCorner"                                             "0"
             "visible"                                               "1"
             "enabled"                                               "1"
-            "tabPosition"                                           "0"
-            "textinsetx"                                            "25"
-            "use_proportional_insets"                               "1"
-            "textAlignment"                                         "center"
-            "dulltext"                                              "0"
-            "brighttext"                                            "0"
-            "default"                                               "1"
-            "sound_depressed"                                       "UI/buttonclick.wav"
-            "sound_released"                                        "UI/buttonclickrelease.wav"
-
+            "defaultFgColor_override"                               "bh_menu_foreground1"
+            "armedFgColor_override"                                 "bh_menu_background1"
             "paintbackground"                                       "0"
-
-            "image_drawcolor"                                       "255 255 255 255"
-            "image_armedcolor"                                      "240 134 49 255"
-
-            "SubImage"
-            {
-                "ControlName"                                       "ImagePanel"
-                "fieldName"                                         "SubImage"
-                "xpos"                                              "0"
-                "ypos"                                              "0"
-                "zpos"                                              "1"
-                "wide"                                              "250"
-                "tall"                                              "35"
-                "visible"                                           "1"
-                "enabled"                                           "1"
-                "scaleImage"                                        "1"
-                "image"                                             ""
-            }
         }
+    }
+
+    "bh_budhudTitleShadow"
+    {
+        "pin_to_sibling"                                            "bh_budhudTitle"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "ControlName"                                               "CExImageButton"
+        "fieldName"                                                 "bh_budhudTitleShadow"
+        "labelText"                                                 "— budhud —"
+        "font"                                                      "bh_Font26"
+
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
+        "zpos"                                                      "0"
+        "wide"                                                      "250"
+        "tall"                                                      "35"
+        "textAlignment"                                             "center"
+
+        "defaultFgColor_override"                                   "bh_shadow"
+        "armedFgColor_override"                                     "bh_shadow"
+        "paintbackground"                                           "0"
+        "sound_depressed"                                           "ui/scored.wav"
+        "sound_released"                                            "ui/scored.wav"
     }
 
     "RankPanel"
@@ -1067,7 +1138,7 @@
 
         "SubImage"
         {
-            "image"                                                 "replay\thumbnails\menu_icons\cog"
+            "image"                                                 "replay/thumbnails/menu_icons/cog"
         }
     }
 
@@ -1082,11 +1153,11 @@
 
     "NoGCImage"
     {
-        "xpos"                                                      "c-30"
+        "xpos"                                                      "c-22"
         "ypos"                                                      "100"
-        "wide"                                                      "60"
-        "tall"                                                      "60"
-        "image"                                                     "replay\thumbnails\melancholy"
+        "wide"                                                      "44"
+        "tall"                                                      "44"
+        "image"                                                     "replay/thumbnails/menu_icons/noconnection"
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1159,7 +1230,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\demoui"
+                "image"                                             "replay/thumbnails/menu_icons/demoui"
                 "scaleImage"                                        "1"
             }
         }
@@ -1225,7 +1296,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\createserver"
+                "image"                                             "replay/thumbnails/menu_icons/createserver"
                 "scaleImage"                                        "1"
             }
         }
@@ -1268,7 +1339,7 @@
                 "ypos"                                              "4"
                 "wide"                                              "18"
                 "tall"                                              "18"
-                "image"                                             "replay\thumbnails\menu_icons\callcoach"
+                "image"                                             "replay/thumbnails/menu_icons/callcoach"
             }
         }
     }
@@ -1310,7 +1381,7 @@
                 "ypos"                                              "4"
                 "wide"                                              "18"
                 "tall"                                              "18"
-                "image"                                             "replay\thumbnails\menu_icons\reportplayer"
+                "image"                                             "replay/thumbnails/menu_icons/reportplayer"
             }
         }
     }
@@ -1352,7 +1423,7 @@
                 "ypos"                                              "4"
                 "wide"                                              "18"
                 "tall"                                              "18"
-                "image"                                             "replay\thumbnails\menu_icons\callvote"
+                "image"                                             "replay/thumbnails/menu_icons/callvote"
             }
         }
     }
@@ -1394,7 +1465,7 @@
                 "ypos"                                              "4"
                 "wide"                                              "18"
                 "tall"                                              "18"
-                "image"                                             "replay\thumbnails\menu_icons\muteplayers"
+                "image"                                             "replay/thumbnails/menu_icons/muteplayers"
             }
         }
     }
@@ -1459,7 +1530,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\achievements"
+                "image"                                             "replay/thumbnails/menu_icons/achievements"
                 "scaleImage"                                        "1"
             }
         }
@@ -1525,7 +1596,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\beacoach"
+                "image"                                             "replay/thumbnails/menu_icons/beacoach"
                 "scaleImage"                                        "1"
             }
         }
@@ -1591,7 +1662,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\training"
+                "image"                                             "replay/thumbnails/menu_icons/training"
                 "scaleImage"                                        "1"
             }
         }
@@ -1657,7 +1728,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\workshop"
+                "image"                                             "replay/thumbnails/menu_icons/workshop"
                 "scaleImage"                                        "1"
             }
         }
@@ -1723,7 +1794,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\bugreport"
+                "image"                                             "replay/thumbnails/menu_icons/bugreport"
                 "scaleImage"                                        "1"
             }
         }
@@ -1789,7 +1860,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\console"
+                "image"                                             "replay/thumbnails/menu_icons/console"
                 "scaleImage"                                        "1"
             }
         }
@@ -1855,7 +1926,70 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\taunts"
+                "image"                                             "replay/thumbnails/menu_icons/taunts"
+                "scaleImage"                                        "1"
+            }
+        }
+    }
+
+    "bh_badhud"
+    {
+        "ControlName"                                               "EditablePanel"
+        "fieldname"                                                 "bh_badhud"
+        "xpos"                                                      "r69"
+        "ypos"                                                      "r69"
+        "wide"                                                      "420"
+        "tall"                                                      "420"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+
+        "SubButton"
+        {
+            "ControlName"                                           "CExImageButton"
+            "fieldName"                                             "SubButton"
+            "xpos"                                                  "0"
+            "ypos"                                                  "0"
+            "wide"                                                  "2"
+            "tall"                                                  "2"
+            "autoResize"                                            "0"
+            "pinCorner"                                             "3"
+            "visible"                                               "1"
+            "enabled"                                               "1"
+            "tabPosition"                                           "0"
+            "textinsetx"                                            "100"
+            "use_proportional_insets"                               "1"
+            "font"                                                  "bh_Font12"
+            "textAlignment"                                         "west"
+            "dulltext"                                              "0"
+            "brighttext"                                            "0"
+            "default"                                               "1"
+            "sound_depressed"                                       "UI/scored.wav"
+            "sound_released"                                        "UI/scored.wav"
+            "sound_armed"                                           "UI/hint.wav"
+
+            "textAlignment"                                         "Center"
+            "fillcolor"                                             "bh_gray"
+
+            "border_default"                                        "NoBorder"
+            "border_armed"                                          "NoBorder"
+            "paintbackground"                                       "0"
+            "defaultFgColor_override"                               "bh_white"
+            "armedFgColor_override"                                 "bh_red"
+            "image_drawcolor"                                       "255 255 255 0"
+            "image_armedcolor"                                      "255 192 203 255"
+
+            "SubImage"
+            {
+                "ControlName"                                       "ImagePanel"
+                "fieldName"                                         "SubImage"
+                "xpos"                                              "0"
+                "ypos"                                              "0"
+                "zpos"                                              "2"
+                "wide"                                              "2"
+                "tall"                                              "1"
+                "visible"                                           "1"
+                "enabled"                                           "1"
+                "image"                                             "replay/thumbnails/menu_icons/heart"
                 "scaleImage"                                        "1"
             }
         }
@@ -2023,6 +2157,13 @@
     }
 
     "RankBorder"
+    {
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+    }
+
+    "VRModeButton"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"

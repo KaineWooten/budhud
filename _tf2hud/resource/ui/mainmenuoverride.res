@@ -176,47 +176,47 @@
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 
-		disabled_wider
+		$_disabled_wider
 		{
 			"wide"			"f0"
 			"tall"			"o0.628"
 		}
 
-		disabled_taller
+		$_disabled_taller
 		{
 			"wide"			"o1.6"
 			"tall"			"f0"
 		}
 		
-		disabled_halloween_0
+		$_disabled_halloween_0
 		{
 			"image"		"../console/title_team_halloween2011_widescreen"
 		}
-		disabled_halloween_1
+		$_disabled_halloween_1
 		{
 			"image"		"../console/title_team_halloween2012_widescreen"
 		}
-		disabled_halloween_2
+		$_disabled_halloween_2
 		{
 			"image"		"../console/title_team_halloween2013_widescreen"
 		}
-		disabled_halloween_3
+		$_disabled_halloween_3
 		{
 			"image"		"../console/title_team_halloween2014_widescreen"
 		}
-		disabled_halloween_4
+		$_disabled_halloween_4
 		{	
 			"image"		"../console/title_team_halloween2015_widescreen"
 		}
-		disabled_halloween_5
+		$_disabled_halloween_5
 		{	
 			"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
-		disabled_fullmoon
+		$_disabled_fullmoon
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		disabled_christmas
+		$_disabled_christmas
 		{
 			"image"		"../console/background_xmas2020_widescreen"
 		}		
@@ -1707,102 +1707,77 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2020 Cosmetic Key" 
+						"item"		"Winter 2022 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2020 Cosmetic Case"
-						"show_market"	"1"
-					}
-					"2"
-					{
-						"item"		"Winter 2020 War Paint Key"
-						"show_market"	"0"
-					}
-					"3"
-					{
-						"item"		"Winter 2020 War Paint Case"
+						"item"		"Winter 2022 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"4"
 					{
-						"item"		"Taunt: The Pooped Deck"
+						"item"		"Taunt: Russian Rubdown"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Taunt: Time Out Therapy"
+						"item"		"Taunt: Tailored Terminal"
 						"show_market"	"0"
 					}
 					"6"
 					{
-						"item"		"Taunt: Rocket Jockey"
+						"item"		"Taunt: Roasty Toasty"
 						"show_market"	"0"
 					}
 					"7"
 					{
-						"item"		"Taunt: The Boston Boarder"
+						"item"		"Map Token Frostwatch"
 						"show_market"	"0"
 					}
 					"8"
 					{
-						"item"		"Taunt: Scorcher's Solo"
+						"item"		"Map Token Frostcliff"
 						"show_market"	"0"
 					}
 					"9"
 					{
-						"item"		"Taunt: Texas Truckin"
+						"item"		"Map Token Rumford"
 						"show_market"	"0"
 					}
 					"10"
 					{
-						"item"		"Taunt: Spin-to-Win"
+						"item"		"Map Token Frosty"
 						"show_market"	"0"
 					}
 					"11"
 					{
-						"item"		"Taunt: The Fist Bump"
+						"item"		"Map Token Coal Pit"
 						"show_market"	"0"
 					}
 					"12"
 					{
-						"item"		"Map Token Pier"
+						"item"		"Strange Filter: Frostwatch (Community)"
 						"show_market"	"0"
 					}
 					"13"
 					{
-						"item"		"Strange Filter: Pier (Community)"
+						"item"		"Strange Filter: Frostcliff (Community)"
 						"show_market"	"0"
-					}					
+					}
 					"14"
 					{
-						"item"		"Map Token SnowVille"
+						"item"		"Strange Filter: Rumford (Community)"
 						"show_market"	"0"
 					}
 					"15"
 					{
-						"item"		"Strange Filter: SnowVille (Community)"
+						"item"		"Strange Filter: Frosty (Community)"
 						"show_market"	"0"
 					}
 					"16"
 					{
-						"item"		"Map Token Snowfall"
-						"show_market"	"0"
-					}
-					"17"
-					{
-						"item"		"Strange Filter: Snowfall (Community)"
-						"show_market"	"0"
-					}
-					"18"
-					{
-						"item"		"Map Token Wutville"
-						"show_market"	"0"
-					}
-					"19"
-					{
-						"item"		"Strange Filter: Wutville (Community)"
+						"item"		"Strange Filter: Coal Pit (Community)"
 						"show_market"	"0"
 					}
 				}

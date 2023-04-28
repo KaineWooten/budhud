@@ -1,5 +1,6 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Item selection menu (within craft panel, etc)
+    // Item selection menu (within craft panel, loadout panel etc)
+    // Basically when you click on an item slot and it shows all the applicable items
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "Resource/UI/ItemSelectionPanel.res"
@@ -9,6 +10,12 @@
         "bgcolor_override"                                          "bh_Theme_BG20"
         "infocus_bgcolor_override"                                  "bh_Theme_BG20"
         "outoffocus_bgcolor_override"                               "bh_Theme_BG20"
+
+        "modelpanels_selection_kv"
+        {
+            "model_tall"                                            "55"
+            "model_wide"                                            "82"
+        }
 
         "modelpanels_kv"
         {
@@ -20,6 +27,19 @@
             }
         }
     }
+
+    // Even though this is on a sheet below the primary "back" button, having this quickkey &Q here
+    // allows us to go back to the crafting window, instead of all the way back to the loadout screen
+    // edit: unfortunately this causes items to unequip if you have an item equipped -> select the slot -> go back
+    //"CancelButton"
+    //{
+    //    "xpos"                                                      "r-6969"
+    //    "ypos"                                                      "r-6969"
+    //    "zpos"                                                      "0"
+    //    "wide"                                                      "0"
+    //    "tall"                                                      "0"
+    //    "labeltext"                                                 "&Q"
+    //}
 
     "NameFilterTextEntry"
     {

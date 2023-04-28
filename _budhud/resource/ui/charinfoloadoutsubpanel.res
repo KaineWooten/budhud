@@ -73,7 +73,7 @@
     "ShowTradeLabel"
     {
         "fgcolor"                                                   "bh_white"
-        "labeltext"                                                 "#bh_MannCoCatalog"
+        "labeltext"                                                 "#bh_Trading"
     }
 
     "ClassLabel"
@@ -84,7 +84,9 @@
 
     "ItemsLabel"
     {
-        "ypos"                                                      "200"
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
         "fgcolor"                                                   "bh_white"
     }
 

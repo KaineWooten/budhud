@@ -9,7 +9,7 @@
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
-		"ypos_disabled"		"-7"
+		"ypos$_disabled_"		"-7"
 		"visible"			"1"
 		"enabled"			"1"
 	}
@@ -43,20 +43,6 @@
 		"pin_corner_to_sibling"        "4"          
 		"pin_to_sibling_corner"        "6"  
 	}
-
-	"CurrencyStatusPanel"
-	{
-		"ControlName"		"CCurrencyStatusPanel"
-		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"0"
-		"ypos"				"r100"
-		"wide"				"100"
-		"tall"				"100"
-		"xpos_disabled"		"65"
-		"ypos_disabled"		"r88"
-		"visible" 			"1"
-		"enabled" 			"1"
-	}
 	
 	"InWorldCurrencyPanel"
 	{
@@ -66,8 +52,8 @@
 		"ypos"				"r15"
 		"wide"				"100"
 		"tall"				"100"
-		"xpos_disabled"		"145"
-		"ypos_disabled"		"r12"
+		"xpos$_disabled_"		"145"
+		"ypos$_disabled_"		"r12"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}

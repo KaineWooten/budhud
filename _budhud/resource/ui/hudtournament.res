@@ -36,20 +36,39 @@
             "ypos"                                                  "0"
             "wide"                                                  "f0"
             "tall"                                                  "f0"
-            "team1_player_base_y"                                   "30"
-            "team2_player_delta_x"                                  "48"
+            "team1_player_base_y"                                   "32"
+            "team2_player_delta_x"                                  "55"
         }
 
         if_mvm
         {
-            "ypos"                                                  "74"
+            "ypos"                                                  "70"
             "team2_player_delta_x"                                  "55"
         }
 
-        playerpanels_kv
+        "playerpanels_kv"
         {
-            "wide"                                                  "49"
+            "wide"                                                  "50"
             "tall"                                                  "33"
+
+            "bh_Template_Block"
+            {
+                "ControlName"                                       "ImagePanel"
+                "fieldName"                                         "bh_Template_Block"
+                "xpos"                                              "0"
+                "ypos"                                              "1"
+                "zpos"                                              "-2"
+                "wide"                                              "f0"
+                "tall"                                              "60"
+                "autoResize"                                        "0"
+                "pinCorner"                                         "0"
+                "labeltext"                                         ""
+                "visible"                                           "1"
+                "enabled"                                           "1"
+                "fillcolor"                                         "bh_Theme_BG20"
+                "image"                                             ""
+                "paintbackgroundtype"                               "0"
+            }
 
             "HealthIcon"
             {
@@ -640,36 +659,6 @@
         if_mvm
         {
             "wide"                                                  "300"
-        }
-    }
-
-    "the_wang_who_peaks"
-    {
-        "ControlName"                                               "ScalableImagePanel"
-        "fieldName"                                                 "the_wang_who_peaks"
-        "xpos"                                                      "c-50"
-        "ypos"                                                      "c6969"
-        "zpos"                                                      "-1"
-        "wide"                                                      "100"
-        "tall"                                                      "100"
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
-        "image"                                                     "\replay\thumbnails\tyrone"
-
-        if_readymode
-        {
-            "ypos"                                                  "r-6969"
-            "wide"                                                  "0"
-            "visible"                                               "0"
-            "enabled"                                               "0"
-        }
-
-        if_competitive
-        {
-            "ypos"                                                  "r-6969"
-            "wide"                                                  "0"
-            "visible"                                               "0"
-            "enabled"                                               "0"
         }
     }
 
